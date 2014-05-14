@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/rhine-common/rhine.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/honami/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/tianchi/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -82,4 +82,4 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalv
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/honami/honami-vendor.mk)
+$(call inherit-product, vendor/sony/tianchi/tianchi-vendor.mk)
