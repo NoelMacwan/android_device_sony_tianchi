@@ -93,7 +93,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_CUSTOM_BOOTIMG_MK := device/sony/tianchi/custombootimg.mk
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/sony/tianchi/recovery/recovery_keys.c
-BOARD_CUSTOM_GRAPHICS := ../../../device/sony/tianchi/recovery/graphics.c
 
 BOARD_USES_QC_TIME_SERVICES := true
 
