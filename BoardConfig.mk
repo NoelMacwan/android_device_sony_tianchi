@@ -40,7 +40,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/tianchi/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8928
-TARGET_KERNEL_CONFIG := yukon_tianchi_dsds_defconfig
+TARGET_KERNEL_CONFIG := tianchi_defconfig
 
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
 BOARD_USES_QCOM_HARDWARE := true
